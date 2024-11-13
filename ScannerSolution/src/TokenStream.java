@@ -227,7 +227,7 @@ public class TokenStream {
 	}
 
 	private boolean isKeyword(String s) {
-		final String[] keywords = {"main", "bool", "integer", "if", "else", "while", "True", "False"};
+		final String[] keywords = {"main", "bool", "integer", "if", "else", "while"};
 		for (String keyword : keywords) {
 			if (s.equals(keyword)) {
 				return true;
